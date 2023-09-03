@@ -102,10 +102,10 @@ const Signup = () => {
             <div>
               <label
                 htmlFor="avatar"
-                className="block text-sm font-medium text-gray-700"
+                className="block text-sm font-medium text-gray-700"s
               ></label>
               <div className="mt-2 flex items-center">
-                <span className="inline-block h-8 w-8 rounded-full overflow-hidden">
+                <span className="inline-block h-8 w-8 rounded-full overflow-hidden">s
                   {avatar ? (
                     <img
                       src={URL.createObjectURL(avatar)}
